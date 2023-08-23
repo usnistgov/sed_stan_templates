@@ -4,9 +4,11 @@ This repository holds Stan template files for common Bayesian models. Additional
 
 ## Instructions for using the Docker image
 
+Prerequisites: Docker must be installed locally on the user's computer.
+
 To initialize a containerized R environment with `cmdstanr` pre-installed, download the Dockerfile from this repository. Then using a terminal with `docker` available in the path, and the terminal in the same directory of the Dockerfile, run the command
 ```
-docker built -t stan_env .
+docker build -t stan_env .
 ```
 This may take a moment, but will install R, Stan, the c++ toolchain, etc., as needed to run stan. The command `docker images` should then show the newly created image. To run the container with the local directory available for reading and writing, run
 ```
