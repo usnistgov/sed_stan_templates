@@ -15,3 +15,8 @@ This may take a moment, but will install R, Stan, the c++ toolchain, etc., as ne
 docker run -it -v ${pwd}:/code stan_env /bin/bash
 ```
 This will give the user a shell inside the Docker container where the user can run stan models with the stan interface `cmdstanr`.
+
+## Acknowledgements
+We acknowledge the following for their contributions to this repository: 
+* Amanda Koepke
+* David Newton
