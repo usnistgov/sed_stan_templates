@@ -12,7 +12,7 @@ parameters {
 }
 
 // The model to be estimated. We model the output
-// 'y' to be normally distributed with mean 'mu'
+// 'y' to be t-distributed with mean 'mu'
 // and standard deviation 'sigma'.
 model {
   y ~ student_t(4, mu, sqrt(.5)*sigma));
