@@ -7,10 +7,8 @@ This repository holds Stan template files for common Bayesian models. Additional
 * `univariate_models` contains simple location-scale models, for example $X_i \sim N(\mu,\sigma)$.
 * `hierarchical_models` contains several types of hierarchical models:
   * `interlab_type1` contains models for interlaboratory studies where each lab's data is summarized by a mean and standard deviation. The general form of the likelihoods is (using the normal distribution as an example):
-$$
-\lambda_i \sim N(\mu, \tau)
-Y_{ij} \sim N(\lambda_i,\sigma_i)
-$$
+$$\lambda_i \sim N(\mu, \tau)
+Y_{ij} \sim N(\lambda_i,\sigma_i)$$
   * `interlab_type2` contains models for interlaboratory studies where the individual values from each lab are available. 
 
 ## Instructions for using the Docker image
