@@ -18,7 +18,7 @@ $$Y_{ij} \sim N(\lambda_i,\sigma_i)$$
 
 Question: Why would I want to use Docker, can't I just install Stan on my own system? 
 
-Answer: Yes, if you have Stan working on your local system, then that is a great option. Occasionally there can be difficulties with installations, especially on Windows, so Docker provides a clean way to use Stan, where all necessary installations are abstracted away from the user.
+Answer: Yes, if you have Stan working on your local system, then you might not need or want to use Docker. Occasionally there can be difficulties with installations, especially on Windows, so Docker provides a clean way to use Stan, where all necessary installations are abstracted away from the user. Also, Docker provides away to ensure consistency accross OS's, if desired.
 
 Prerequisites: Docker must be installed locally on the user's computer, and the Docker engine must be running.
 
