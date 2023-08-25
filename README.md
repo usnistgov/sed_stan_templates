@@ -1,8 +1,8 @@
 # Stan Template Files for Bayesian data analysis
 
-This repository holds Stan template files for common Bayesian models. Additionally, there is a Docker image provided for users to use Stan (specifically the `cmdstanr` R package) via Docker instead of having to go through local system installations with stan, the c++ toolchain, etc.
+This repository holds Stan template files for common Bayesian models (see the next section "Stan Files Explained" for more detail). Additionally, there is a Docker image provided for users to use Stan (specifically the `cmdstanr` R package) via Docker instead of having to go through local system installations with stan, the c++ toolchain, etc.
 
-## Stan files Explained
+## Stan Files Explained
 
 * `univariate_models` contains simple location-scale models, for example $X_i \sim N(\mu,\sigma)$ and $X_i \sim t_4(\mu,\sqrt{2}\sigma)$.
 * `hierarchical_models` contains several types of hierarchical models:
