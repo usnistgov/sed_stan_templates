@@ -2,6 +2,13 @@
 
 This repository holds Stan template files for common Bayesian models. Additionally, there is a Docker image provided for users to use Stan (specifically the `cmdstanr` R package) via Docker instead of having to go through local system installations with stan, the c++ toolchain, etc.
 
+## Stan files Explained
+
+* `univariate_models` contains simple location-scale models, for example $X_i ~ N(\mu,\sigma)$.
+* `hierarchical_models` contains several types of hierarchical models:
+  * `interlab_type1` contains models for interlaboratory studies where each lab's data is summarized by a mean and standard deviation.
+  * `interlab_type2` contains models for interlaboratory studies where the individual values from each lab are available. 
+
 ## Instructions for using the Docker image
 
 Prerequisites: Docker must be installed locally on the user's computer, and the Docker engine must be running.
