@@ -10,7 +10,7 @@ This repository holds Stan template files for common Bayesian models (see the ne
 $$\lambda_i \sim N(\mu, \tau)$$ 
 $$X_i \sim N(\lambda_i,\sigma_i)$$
 $$u_i^2 \sim \text{Gamma}(\nu/2,\nu/(2\sigma_i^2) )$$
-  * `interlab_type2` contains models for interlaboratory studies where the individual values from each lab are available. 
+  * `interlab_type2` contains models for interlaboratory studies where the individual values, $Y_{ij}$ from each lab (lab $i$) are available. 
 $$\lambda_i \sim N(\mu, \tau)$$ 
 $$Y_{ij} \sim N(\lambda_i,\sigma_i)$$
 
