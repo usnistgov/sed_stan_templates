@@ -4,7 +4,7 @@ This repository holds Stan template files for common Bayesian models. Additional
 
 ## Stan files Explained
 
-* `univariate_models` contains simple location-scale models, for example $X_i ~ N(\mu,\sigma)$.
+* `univariate_models` contains simple location-scale models, for example $X_i \sim N(\mu,\sigma)$.
 * `hierarchical_models` contains several types of hierarchical models:
   * `interlab_type1` contains models for interlaboratory studies where each lab's data is summarized by a mean and standard deviation.
   * `interlab_type2` contains models for interlaboratory studies where the individual values from each lab are available. 
@@ -27,3 +27,4 @@ This will give the user a shell inside the Docker container where the user can r
 We acknowledge the following (in alphabetical order by last name) for their contributions to this repository: 
 * Amanda Koepke
 * David Newton
+* Antonio Possolo
