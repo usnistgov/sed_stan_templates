@@ -13,7 +13,10 @@ $$u_i^2 \sim \text{Gamma}(\nu/2,\nu/(2\sigma_i^2) )$$
   * `interlab_type2` contains models for interlaboratory studies where the individual values from each lab are available. 
 $$\lambda_i \sim N(\mu, \tau)$$ 
 $$Y_{ij} \sim N(\lambda_i,\sigma_i)$$
+
 ## Instructions for using the Docker image
+
+Why would I want to use Docker, can't I just install Stan on my own system? Answer: yes, if you have Stan working on your local system, then that is a great option. Occasionally there can be difficulties with installations, especially on Windows, so Docker provides a clean way to use Stan, where all necessary installations are abstracted away from the user.
 
 Prerequisites: Docker must be installed locally on the user's computer, and the Docker engine must be running.
 
